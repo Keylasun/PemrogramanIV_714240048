@@ -1,0 +1,43 @@
+name: ats_pemrograman4
+description: "ATS Pemrograman IV - Keyla Sun (714240048) - Porsche Theme"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  flutter_colorpicker: ^1.1.0
+  file_picker: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/oswald/Oswald-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/oswald/Oswald-Light.ttf
+          weight: 300
+        - asset: assets/fonts/oswald/Oswald-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/oswald/Oswald-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/oswald/Oswald-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/oswald/Oswald-Bold.ttf
+          weight: 700
